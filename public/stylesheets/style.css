@@ -3,6 +3,64 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00b7ff;
+h2 {
+  margin: 20px;
+  color: #01251e;
+  font-weight: bold;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #015744;
+  color: white;
+  padding: 5px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px grey;
+  border-radius: 10px;
+}
+
+nav a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 10px;
+  font-weight: bold;
+
+}
+
+button {
+  color: darkgray;
+  background-color: transparent;
+  border: 2px solid lightslategray;
+  font-size: 1.2em;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#edit:hover {
+  background-color: #015744;
+  color: white;
+  border-color: white;
+}
+#delete:hover {
+  background-color: darkred;
+  color: white;
+  border-color: white;
+}
+
+#drones {
+  background-color: aqua;
+ 
+}
+
+#name {
+  font-style: italic;
+  font-weight: bold;
+  color: #015744;
+  font-size: 1.5em;
 }
